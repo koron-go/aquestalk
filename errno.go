@@ -44,4 +44,3 @@ func (nr errno) Error() string {
 		return fmt.Sprintf("undefined error code: %d", nr)
 	}
 }
-
