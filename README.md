@@ -51,3 +51,4 @@ $ sudo apt install -y libasound2-dev
 
 * Windows (x86 and amd64)
 * Linux (x86 and amd64)
+* macOS (confirmed on M1 macmini)
