@@ -5,7 +5,7 @@
 [![Actions/Go](https://github.com/koron-go/aquestalk/workflows/Go/badge.svg)](https://github.com/koron-go/aquestalk/actions?query=workflow%3AGo)
 [![Go Report Card](https://goreportcard.com/badge/github.com/koron-go/aquestalk)](https://goreportcard.com/report/github.com/koron-go/aquestalk)
 
-[Aquestalk][aq] for Go.
+[AquesTalk][aq] wrapper for Go.
 
 ## Gettings started
 
