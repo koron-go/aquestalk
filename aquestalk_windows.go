@@ -1,7 +1,6 @@
 package aquestalk
 
 import (
-	"fmt"
 	"reflect"
 	"sync"
 	"syscall"

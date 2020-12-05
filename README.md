@@ -39,6 +39,14 @@ $ go run ./examples/01_hello/main.go
 [aq]:https://www.a-quest.com/products/aquestalk_1.html
 [dl]:https://www.a-quest.com/download.html
 
+### for Linux
+
+You may need libasound2-dev to install, before `go run`.
+
+```console
+$ sudo apt install -y libasound2-dev
+```
+
 ## Supported Platforms
 
 * Windows (x86 and amd64)
