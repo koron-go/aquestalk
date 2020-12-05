@@ -23,7 +23,11 @@ dirs in PATH environment. Next example command copies a DLL of F1 voice for
 windows/amd64.
 
 ```console
+# for Windows
 $ cp aqtk1-win-eva/x64/f1/AquesTalk.dll .
+
+# for Linux
+$ cp aqtk1-lnx-eva/lib64/f1/libAquesTalk.so .
 ```
 
 You'll hear "Konnichi wa Gopher" (こんにちはGopher) with next command.
@@ -38,3 +42,4 @@ $ go run ./examples/01_hello/main.go
 ## Supported Platforms
 
 * Windows (x86 and amd64)
+* Linux (x86 and amd64)

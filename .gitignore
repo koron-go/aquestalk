@@ -1,6 +1,11 @@
 tags
 tmp/
+*.sw?
 
 _lib/
 
+# for Windows
 AquesTalk.dll
+
+# for Linux
+libAquesTalk.so
