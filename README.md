@@ -64,12 +64,10 @@ $ cp -Rp AquesTalk.framework /Library/Frameworks/
 
 ## IMPORTANT: License of AquesTalk
 
-This package is a just a wrapper of AquesTalk engine, doesn't include
-AquesTalk.
+This package is a just a wrapper of AquesTalk engine, and doesn't include
+AquesTalk, and this is developped by using evaluation version of AquesTalk.
 
-Using AquesTalk engine with your programs, you must obtain AquesTalk's license.
-
-This package is developped by using evaluation version of AquesTalk.
+You must acquire AquesTalk's license, when using AquesTalk with your programs.
 
 [aq]:https://www.a-quest.com/products/aquestalk_1.html
 [dl]:https://www.a-quest.com/download.html
