@@ -81,6 +81,9 @@ func (nr errno) Error() string {
 	}
 }
 
+// DLLName declares name of DLL. You can change this only before call Synthe().
+var DLLName = "AquesTalk.dll"
+
 var (
 	dllOnce   sync.Once
 	dllPtr    *syscall.DLL
@@ -91,10 +94,10 @@ var (
 
 func dllInit() error {
 	dllOnce.Do(func() {
-		if dllErr != nil {
+		if dllErr != nil || dllPtr != nil {
 			return
 		}
-		dll, err := syscall.LoadDLL("AquesTalk.dll")
+		dll, err := syscall.LoadDLL(DLLName)
 		if err != nil {
 			dllErr = err
 			return
