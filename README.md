@@ -9,7 +9,7 @@
 
 ## Gettings started
 
-Get `aquestalk` package.
+To get `aquestalk` package:
 
 ```console
 $ go get github.com/koron-go/aquestalk
@@ -36,9 +36,6 @@ You'll hear "Konnichi wa Gopher" (こんにちはGopher) with next command.
 $ go run ./examples/01_hello/main.go
 ```
 
-[aq]:https://www.a-quest.com/products/aquestalk_1.html
-[dl]:https://www.a-quest.com/download.html
-
 ### for Linux
 
 You may need libasound2-dev to install, before `go run`.
@@ -47,8 +44,32 @@ You may need libasound2-dev to install, before `go run`.
 $ sudo apt install -y libasound2-dev
 ```
 
+### for macOS
+
+You should use **AquesTalk10** (not AquesTalk1).
+
+Download "AquesTalk10 Mac  1.1.0 (2017/11/01)".
+
+Extract a zip file, and copy AquesTalk.framework to /Library/Frameworks
+
+```console
+$ cp -Rp AquesTalk.framework /Library/Frameworks/
+```
+
 ## Supported Platforms
 
 * Windows (x86 and amd64)
 * Linux (x86 and amd64)
 * macOS (confirmed on M1 macmini)
+
+## IMPORTANT: License of AquesTalk
+
+This package is a just a wrapper of AquesTalk engine, doesn't include
+AquesTalk.
+
+Using AquesTalk engine with your programs, you must obtain AquesTalk's license.
+
+This package is developped by using evaluation version of AquesTalk.
+
+[aq]:https://www.a-quest.com/products/aquestalk_1.html
+[dl]:https://www.a-quest.com/download.html
