@@ -26,6 +26,12 @@ jobs:
       with:
         go-version: ${{ env.GO_VERSION }}
 
+    - name: Install dependencies (Linux)
+      if: runner.os == 'Linux'
+      run: |
+        sudo apt update
+        sudo apt install libasound2-dev
+
     - run: go test ./...
 
     - name: Build all "main" packages
